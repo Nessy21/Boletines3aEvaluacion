@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 public class Ejercicio4 {
-
+/*Realizar un método de forma recursiva calcule si un número
+ *  es primo o no (solo es divisible por si mismo y por la unidad).
+*/
 	private static Scanner sc;
 	
 	public static int primo (int num, int i) {
