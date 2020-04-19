@@ -23,7 +23,7 @@ public class Ejercicio4 {
 		System.out.println("Introduce un numero");
 			sc = new Scanner(System.in);
 			num = sc.nextInt();
-		int vAux=primo(num, num/2);	// i = num/2
+		int vAux=primo(num, num/2);	// i = num/2 (una variable auxiliar para recoger los returns)
 		if (vAux==1) {//cogemos lo que nos retorna y le damos un significado
 			System.out.println("El numero es primo");
 		}
